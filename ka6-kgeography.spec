@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	25.08.2
+%define		kdeappsver	25.08.3
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		kgeography
 Summary:	kgeography
 Name:		ka6-%{kaname}
-Version:	25.08.2
-Release:	2
+Version:	25.08.3
+Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	efa6a359e442e4ee58d490c950cf0312
+# Source0-md5:	16241e995284d1ab023ba7ca30e8daa6
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Gui-devel >= 5.11.1
@@ -45,8 +45,8 @@ about the political divisions of some countries (divisions, capitals
 of those divisions and their associated flags if there are some).
 
 %description -l pl.UTF-8
-KGeography to narzędzi do nauki geografii, które pozwala uczyć się
-o podziałach administracyjnych różnych krajów, ich stolicach i flagach.
+KGeography to narzędzi do nauki geografii, które pozwala uczyć się o
+podziałach administracyjnych różnych krajów, ich stolicach i flagach.
 
 %package data
 Summary:	Data files for %{kaname}
