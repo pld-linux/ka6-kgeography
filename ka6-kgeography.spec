@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	26.04.2
+%define		kdeappsver	26.04.3
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		kgeography
 Summary:	kgeography
 Name:		ka6-%{kaname}
-Version:	26.04.2
+Version:	26.04.3
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	112e2114280ce48a6a71d8c680ffd010
+# Source0-md5:	144085a9f552033f4f44d6c7eb2e8984
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Gui-devel >= 5.11.1
